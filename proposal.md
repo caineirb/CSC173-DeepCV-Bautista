@@ -48,14 +48,12 @@ Air conditioning systems in the Philippines typically operate at fixed temperatu
     - Clothing Classification: ResNet-50
 - Framework: PyTorch with torchvision for model implementations
 - Training Strategy: Transfer learning and fine-tuning pre-trained models
-- Hardware: Local GPU
+- Hardware: Local GPU (CUDA enabled)
 
 ## 6. Expected Challenges & Mitigations
 > - Challenge: Occlusion and overlapping persons may reduce detection accuracy and affect person counting
 > - Solution: Use YOLO's multi-scale detection and non-maximum suppression; augment training data with crowded scenes; implement confidence thresholding
----
 > - Challenge: Posture classification may be difficult with partial body visibility or unusual poses
 > - Solution: Focus on upper body features in cropped images; augment dataset with synthetic poses; use ensemble predictions if confidence is low
----
 > - Challenge: Limited labeled data for clothing thermal properties
 > - Solution: Manually relabel subsets of clothing datasets based on material thickness

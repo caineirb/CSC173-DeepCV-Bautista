@@ -186,4 +186,4 @@ wcwidth==0.2.14
 [2] Deng, J., et al. "ImageNet: A large-scale hierarchical image database," CVPR, 2009. [web:25]
 
 ## GitHub Pages
-View this project site: [https://jjmmontemayor.github.io/CSC173-DeepCV-Montemayor/](https://jjmmontemayor.github.io/CSC173-DeepCV-Montemayor/) [web:32]
+View this project site: [https://caineirb.github.io/CSC173-DeepCV-Bautista/](https://caineirb.github.io/CSC173-DeepCV-Bautista/)

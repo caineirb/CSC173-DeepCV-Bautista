@@ -1,4 +1,8 @@
 datasets/
 predictions/
-runs/
+runs/human_detection/weights/epoch*.pt
+runs/human_detection/*_metrics
 venv/
+notebooks/human_detection/*.py
+notebooks/clothing_classification
+notebooks/posture_classification
