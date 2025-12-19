@@ -4,3 +4,4 @@ runs/human_detection/weights/epoch*.pt
 runs/human_detection/*_metrics
 venv/
 notebooks/human_detection/*.py
+notebooks/posture_classification/*.pt
