@@ -20,7 +20,7 @@
     - 71.79%/3.94%/24.27% or 20,054/1,100/6,781
 - **Classes implemented:**
     - ["Person"]
-- **Preprocessing applied:** Resize(640x640), augmentation (flip, rotate, brightness)
+- **Preprocessing applied:** Resize (640 × 640), horizontal flip, rotation, translation, scaling, hue–saturation–brightness augmentation, mosaic, mixup, copy-paste
 - **Sample data preview:**
 #### Human Dataset Sample
 ![Human Detection Sample](images/human_detection_sample.jpg)
@@ -44,7 +44,7 @@
     - 80%/20% or 6,000/1,500 
 - **Classes implemented:**
     - ["light", "medium", "heavy"]
-- **Preprocessing applied:** Random Resize, augmentation (flip,Gaussian Blur, Color Jitter, Affine, Random Perspective, Random Erase)
+- **Preprocessing applied:** Categorizing existing classes for clothes like Jeans, Blazers, etc, to light, medium, or heavy based on the required decrease in temperature, Balance images in each category, Random Resize, augmentation (flip,Gaussian Blur, Color Jitter, Affine, Random Perspective, Random Erase)
 - **Sample data preview:**
 #### Light Wear
 ![Light Wear Sample](images/light_wear_sample.jpg)

@@ -3,7 +3,7 @@
 **Date:** December 11, 2025
 
 ## 1. Project Title 
-Deep Computer Vision for Intelligent Environmental Temperature Management
+Deep Computer Vision for Intelligent Indoor Temperature Management
 
 ## 2. Problem Statement
 Air conditioning systems in the Philippines typically operate at fixed temperatures, leading to energy waste and user discomfort. In tropical climates like in Iligan, rooms with varying occupancy levels and diverse clothing choices often result in either overcooling or insufficient cooling. This project addresses the need for intelligent climate control by developing a computer vision system that analyzes room occupancy, human posture, and clothing type to recommend optimal temperature settings, by providing the necessary environment data to a neural network. Such a system could reduce energy consumption while improving thermal comfort in offices, classrooms, and public spaces across the region.
@@ -18,7 +18,7 @@ Air conditioning systems in the Philippines typically operate at fixed temperatu
 - Source: 
     - Human Detection: [Human Detection Yolo](https://www.kaggle.com/datasets/hillsworld/human-detection-yolo) (27935 images)
     - Posture Classification: [Silhouettes for Human Posture Recognition](https://www.kaggle.com/datasets/mexwell/silhouettes-for-human-posture-recognition) (2,400 images)
-    - Clothing Classification: [Clothing Co-Parsing Dataset](https://www.kaggle.com/datasets/balraj98/clothing-coparsing-dataset) (3102 images) + [Intelligent Multi-Layer Clothing Dataset](https://www.kaggle.com/datasets/ziya07/intelligent-multi-layer-clothing-dataset) (4,301 images)
+    - Clothing Classification: [Clothes Dataset](https://www.kaggle.com/datasets/ryanbadai/clothes-dataset) (7,500 images)
 - Classes: 
     - Human Detection: ['Person']
     - Posture Classification: ['Sitting', 'Standing']
