@@ -216,8 +216,8 @@ def annotate_gif_with_models(
 
 # -------------------- RUN --------------------
 annotate_gif_with_models(
-    input_gif_path="images/problem.gif",
-    output_gif_path="images/problem_annotated.gif",
+    input_gif_path="demo/problem.gif",
+    output_gif_path="demo/problem_annotated.gif",
     posture_classes=["sitting", "standing"],
     clothing_classes=["light", "medium", "heavy"],
 )

@@ -29,7 +29,7 @@ Air conditioning systems in the Philippines typically operate at fixed temperatu
 - Integrate the three models into a unified inference system that outputs temperature recommendations based on combined predictions.
 - Achieve at least 85% accuracy on human detection, 80% on posture classification, and 75% on clothing classification tasks.
 
-![Problem Demo](images/problem.gif)
+![Problem Demo](demo/problem.gif)
 
 ## Related Work
 Deep learning–based object detection and classification frameworks, particularly those belonging to the You Only Look Once family, have become widely adopted for real-time vision applications due to their ability to jointly localize and recognize objects within a single feedforward pass. One-stage detection architectures are explicitly designed to balance high detection speed with competitive accuracy, making them well suited for real-time human detection tasks in both high-performance and resource-constrained environments. Comparative studies of object detection networks indicate that lightweight detection models provide a favorable trade-off between computational efficiency and detection accuracy, improving system responsiveness in scenarios where low latency and continuous operation are critical [1].
@@ -389,7 +389,9 @@ for epoch in range(EPOCHS):
 ![CC Training Curve](runs/clothing_classification/clothing_classification_results.png)
 
 ### Demo
-![Detection Demo](images/problem_annotated.gif)
+[![Final Presentation](demo/problem_annotated.gif)](demo/CSC173_Bautista_Final.mp4)
+
+(*Note:* This annotation can also be used for videos, just modify the [`gif_annotator.py`](gif_annotator.py))
 
 ## Discussion
 ### 1. YOLO11n-Based Human Detection Model

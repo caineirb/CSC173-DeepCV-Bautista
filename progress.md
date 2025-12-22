@@ -99,5 +99,5 @@
 
 ## 4. Next Steps (Before Final Submission)
 - [X] Retrain Clothing Classification Model
-- [ ] Record 5-min demo video
-- [ ] Write complete README.md with results
+- [X] Record 5-min demo video
+- [X] Write complete README.md with results
